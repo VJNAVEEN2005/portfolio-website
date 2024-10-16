@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.d205e47b.css",
+    "main.js": "/portfolio-website/static/js/main.6ee05c91.js",
+    "static/js/453.aac68abc.chunk.js": "/portfolio-website/static/js/453.aac68abc.chunk.js",
+    "static/media/sitcode.png": "/portfolio-website/static/media/sitcode.0d139f73352d18438067.png",
+    "static/media/Logo_vjn.png": "/portfolio-website/static/media/Logo_vjn.9e7a574b0b21ea5a6371.png",
+    "static/media/social_media_background.svg": "/portfolio-website/static/media/social_media_background.593a6a50c7ca3081f3be8d62657ebf26.svg",
+    "static/media/icons8-github.svg": "/portfolio-website/static/media/icons8-github.ab6e04065eed745ae85e06399a98b15a.svg",
+    "static/media/icons8-youtube.svg": "/portfolio-website/static/media/icons8-youtube.c0ee32494245080415bd2fdc1461ea8a.svg",
+    "static/media/icons8-instagram.svg": "/portfolio-website/static/media/icons8-instagram.0c65466a970efe829f813ebb72785714.svg",
+    "static/media/icons8-linkedin.svg": "/portfolio-website/static/media/icons8-linkedin.455306c354b05e4ca7a1ce805c1f50b1.svg",
+    "index.html": "/portfolio-website/index.html",
+    "main.d205e47b.css.map": "/portfolio-website/static/css/main.d205e47b.css.map",
+    "main.6ee05c91.js.map": "/portfolio-website/static/js/main.6ee05c91.js.map",
+    "453.aac68abc.chunk.js.map": "/portfolio-website/static/js/453.aac68abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d205e47b.css",
+    "static/js/main.6ee05c91.js"
+  ]
+}
