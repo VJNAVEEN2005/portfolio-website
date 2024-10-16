@@ -1,10 +1,20 @@
 
 .Social_div{
     margin-left: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .Social_bg{
     width: 131px;
     height: 422px;
+}
+
+.images{
+    position: fixed;
+    bottom: 35px;
+    top: 48%;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

@@ -45,8 +45,10 @@ body{
 
 .Aboutbox{
   position: fixed;
-  top: 17%;
+  top: 15%;
+  bottom: 15%;
   left: 18%;
+
 }
 
 .Project{
