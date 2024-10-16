@@ -20,6 +20,7 @@ body{
 
 .App{
   height: 100%;
+  width: 100%;
 }
 
 .logo_div{
@@ -74,4 +75,39 @@ body{
   top: 200px;
   width: 100px;
   height: 200px;
+}
+
+@media (max-width: 450px) {
+  
+  .Logo{
+    width: 50px;
+  }
+
+  .logo_div{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .about{
+    position: fixed;
+    top: 250px;
+  }
+
+  .Aboutbox{
+    position: fixed;
+    top: 15%;
+    bottom: 15%;
+    left: 15%;
+    right: 15%;
+  
+  }
+
+  .Project{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 200px;
+    right: 30px;
+  }
+
 }

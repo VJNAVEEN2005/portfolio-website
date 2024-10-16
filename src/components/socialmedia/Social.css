@@ -18,3 +18,26 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media (max-width: 450px){
+
+    .Social_bg{
+        width: 131px;
+        height: 422px;
+    }
+
+    .images{
+        position: fixed;
+        bottom: 35px;
+        top: 60%;
+        left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .images_soc{
+        width: 40px;
+    }
+
+}
