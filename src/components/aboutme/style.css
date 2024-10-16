@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Mogra&family=Port+Lligat+Slab&display=swap');
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    background-color: #ADE8F4;
+    border-color: #0077B6;
+    border-radius: 40px;
+    border: solid 4px;
+    padding: 20px;
+    max-width: 1200px;
+    padding: 0px;
+    padding-left: 20px;
+}
+
+.Image_box{
+    height: inherit;
+    background-color: #90E0EF;
+    margin-left: 10px;
+    padding: 0px;
+    border-radius: 40px;
+}
+
+.box {
+  height: 462px;
+  position: relative;
+  width: 531px;
+}
+
+.box .text {
+  height: 462px;
+  width: 537px;
+}
+
+.box .text-wrapper {
+  color: #000000;
+  font-family: "Lemon", Helvetica;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box .div {
+  color: #000000;
+  font-family: "Mogra", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+}
+
+.box .i-am-pursuing-b-tech {
+  color: #000000;
+  font-family: "Port Lligat Slab", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+}
+
+.code_image{
+    width: 324px;
+}

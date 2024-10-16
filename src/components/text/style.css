@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+.label {
+  height: 120px;
+  width: 46px;
+}
+
+.label .text-wrapper {
+  color: #000000;
+  font-family: "Potta One", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  text-shadow: 4px 4px 4px #00000040;
+  transform: rotate(-90deg);
+}
+
+.label1 {
+  height: 46px;
+  width: 170px;
+}
+
+.label1 .text-wrapper1 {
+  color: #000000;
+  font-family: "Potta One", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  text-shadow: 4px 4px 4px #00000040;
+}
+
+.label2 {
+  height: 46px;
+  width: 157px;
+}
+
+.label2 .text-wrapper2 {
+  color: #000000;
+  font-family: "Potta One", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  text-shadow: 4px 4px 4px #00000040;
+}

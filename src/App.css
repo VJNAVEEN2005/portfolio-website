@@ -12,56 +12,29 @@ body{
 }
 
 .Logo{
-  width: 118px;
-}
-
-
-.label {
-  height: 120px;
-  width: 46px;
-}
-
-.label .text-wrapper {
-  margin-top: 250px;
-  color: #000000;
-  font-family: "Potta One-Regular", Helvetica;
-  font-size: 32px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
   position: fixed;
-  text-shadow: 4px 4px 4px #00000040;
-  top: 0;
-  transform: rotate(-90deg);
+  width: 118px;
 }
 
 
 
 .App{
-  display: flex;
-  flex-direction: column;
   height: 100%;
 }
 
-.row1{
-  display: flex;
-  flex-direction: row;
-}
-
-.green{
+.logo_div{
   margin-top: 20px;
   margin-left: 20px;
 }
 
-.yellow{
-  background-color: yellow;
-  width: 150px;
-  height: 100px;
+.Contact{
+  position: fixed;
+  top: 10px;
+  right: 100px;
 }
 
-.blue{
-  position: relative;
+.social{
+  position: fixed;
   bottom: 0;        
   left: 0;         
   margin: 0;       
@@ -70,46 +43,33 @@ body{
   height: auto;
 }
 
-.row2{
-  display: flex;
-  flex-direction: row;
+.Aboutbox{
+  position: fixed;
+  top: 17%;
+  left: 18%;
 }
 
-.purple{
-  background-color: purple;
-  width: 100px;
-  height: 100px;
-}
-
-.red{
-  background-color: red;
-  width: 100px;
-  height: 100px;
-}
-
-.pink{
-  background-color: pink;
-  width: 200px;
-  height: 100px;
-}
-
-.row3{
-  display: flex;
-  flex-direction: row;
-}
-
-.column1{
+.Project{
   display: flex;
   flex-direction: column;
+  position: fixed;
+  top: 200px;
+  right: 80px;
 }
 
-.column2{
-  display: flex;
-  flex-direction: column;
+
+
+
+.Myskills{
+  position: fixed;
+  bottom: 10px;
+  right: 100px;
 }
+
 
 .about{
-  background-color: green;
+  position: fixed;
+  top: 200px;
   width: 100px;
   height: 200px;
 }
