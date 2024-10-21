@@ -5,6 +5,11 @@
   width: 46px;
 }
 
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
 .label .text-wrapper {
   color: #000000;
   font-family: "Potta One", Helvetica;
@@ -66,4 +71,31 @@
     font-weight: 100;
   }
 
+}
+
+@media (max-width: 840px) {
+  
+  .label .text-wrapper {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .label1 .text-wrapper1 {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .label2 .text-wrapper2 {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+}
+
+@media (max-height: 820px) {
+
+  .label2 .text-wrapper2{
+    transform: rotate(-90deg);
+  }
+  
 }

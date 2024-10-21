@@ -111,3 +111,58 @@ body{
   }
 
 }
+
+@media (max-width: 840px) {
+  
+  .Logo{
+    width: 50px;
+  }
+
+  .logo_div{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .about{
+    position: fixed;
+    top: 250px;
+  }
+
+  .Aboutbox{
+    position: fixed;
+    top: 10%;
+    bottom: 15%;
+    left: 15%;
+    right: 15%;
+  
+  }
+
+  .Project{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 200px;
+    right: 30px;
+  }
+
+}
+
+@media (max-height: 820px) {
+
+  .Myskills{
+    top: 620px;
+    right: -80px;
+  }
+
+}
+
+@media (max-height: 766px){
+
+  .Aboutbox{
+    position: fixed;
+    top: 6%;
+    bottom: 15%;
+    left: 18%;
+  
+  }
+}

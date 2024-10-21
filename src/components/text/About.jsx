@@ -4,7 +4,7 @@ import './style.css'
 function About() {
   return (
     <div className="label">
-      <div className="text-wrapper">ABOUT</div>
+      <div className="text-wrapper"><a href="/about">ABOUT</a></div>
     </div>
   )
 }

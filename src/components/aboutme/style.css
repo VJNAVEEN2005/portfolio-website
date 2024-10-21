@@ -107,3 +107,50 @@
 }
 
 }
+
+@media (max-width: 840px){
+
+  .Container{
+    display: flex;
+    flex-direction: column-reverse;
+    border: solid 2px;
+    padding: 8px;
+    padding-bottom: 0px;
+  }
+
+  .code_image{
+    width: 200px;
+}
+
+
+
+.box .text-wrapper {
+  font-size: 40px;
+}
+
+.box .div {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.box .i-am-pursuing-b-tech {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.Image_box{
+  margin-left: 0px;
+}
+
+.box {
+  max-height: 330px;
+  position: relative;
+  width: 350px;
+}
+
+.box .i-am-pursuing-b-tech {
+  margin-top: -5px;
+}
+
+}
+

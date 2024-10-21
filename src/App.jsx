@@ -8,55 +8,29 @@ import Project from './components/text/Project';
 import Resume from './components/text/Resume';
 import Myskills from './components/text/Myskills';
 import Aboutbox from './components/aboutme/Aboutbox';
+import { Routes,Route } from 'react-router-dom'
+import Contact_click from './page/contact/contact_click';
+import Home from './Home';
+import About_click from './page/about/About_click';
+import Resume_click from './page/resume/Resume_click';
+import Project_click from './page/projects/Project_click';
+import Myskills_click from './page/myskills/Myskills_click';
 
 function App() {
   return (
-    <div className="App">
 
-
-      <div className='logo_div'>
-        <img src={logo} className='Logo' />
-      </div>
-
-      <div className='Contact'>
-        <Contact />
-      </div>
-
-
-
-
-
-      <div className='about'>
-        <About />
-      </div>
-
-      <div className='social'>
-        <Social/>
-      </div>
-
-
-
-
-
-      <div className='Aboutbox'>
-        <Aboutbox/>
-      </div>
-
-
-      <div className='Project'>
-        <Project />
-        <br /><br /><br /><br /><br /><br />
-        <Resume />
-      </div>
-
-
-      <div className='Myskills'>
-        <Myskills />
-      </div>
-
-
-
-    </div>
+    <>
+    <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/contact' element={<Contact_click/>}/>
+    <Route path='/about' element={<About_click/>}/>
+    <Route path='/resume' element={<Resume_click/>}/>
+    <Route path='/project' element={<Project_click/>}/>  
+    <Route path='/myskills' element={<Myskills_click/>}/>  
+   </Routes>
+   
+    </>
+    
   );
 }
 
