@@ -12,10 +12,10 @@ function Social() {
         <div className='Social_div'>
 
             <div className='images'>
-                <a href="https://github.com/VJNAVEEN2005" target='_blank'><img src={github} width={50} className='images_soc'/></a>
-                <a href="https://www.youtube.com/@vjntech2005" target='_blank'><img src={youtube} width={50} className='images_soc'/></a>
-                <a href="https://www.linkedin.com/in/naveen-velmourougane-49742a263/" target='_blank'><img src={linkedin} width={50} className='images_soc'/></a>
-                <a href="https://www.instagram.com/vj_naveen_05?igsh=MXFzNnptZ2MxYnh4NQ==" target='_blank'><img src={instagram} width={50} className='images_soc'/>  </a>              
+                <a href="https://github.com/VJNAVEEN2005" target='_blank'><img src={github} width={50} className='images_soc images_soc1'/></a>
+                <a href="https://www.youtube.com/@vjntech2005" target='_blank'><img src={youtube} width={50} className='images_soc images_soc2'/></a>
+                <a href="https://www.linkedin.com/in/naveen-velmourougane-49742a263/" target='_blank'><img src={linkedin} width={50} className='images_soc images_soc3'/></a>
+                <a href="https://www.instagram.com/vj_naveen_05?igsh=MXFzNnptZ2MxYnh4NQ==" target='_blank'><img src={instagram} width={50} className='images_soc images_soc4'/>  </a>              
             </div>
 
             <img src={social_bg} className='Social_bg' />

@@ -1,168 +1,265 @@
-body{
+body {
   background-color: #CAF0F8;
-  height: 100%; /* Make sure the body and HTML take up the full height of the viewport */
+  height: 100%;
+  /* Make sure the body and HTML take up the full height of the viewport */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.Logo{
-  position: fixed;
+.Logo {
   width: 118px;
 }
 
 
-
-.App{
+.App {
   height: 100%;
   width: 100%;
 }
 
-.logo_div{
-  margin-top: 20px;
+.logo_div {
+  position: fixed;
+  top: 10px;
   margin-left: 20px;
+  animation: come 1s;
 }
 
-.Contact{
+@keyframes come {
+  0%{
+    margin-left: -120px;
+  }
+  100%{
+    margin-left: 20px;
+  }
+}
+
+.Contact {
   position: fixed;
   top: 10px;
   right: 100px;
+  animation: contact 1s;
 }
 
-.social{
+@keyframes contact {
+  0%{
+    top: -50px;
+  }
+  100%{
+    top: 10px;
+  }
+}
+
+
+
+.social {
   position: fixed;
-  bottom: 0;        
-  left: 0;         
-  margin: 0;       
-  padding: 0;      
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
   width: auto;
   height: auto;
+  z-index: -3;
 }
 
-.Aboutbox{
-  position: fixed;
-  top: 15%;
-  bottom: 15%;
-  left: 18%;
-
+.Aboutbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
 }
 
-.Project{
+.Project {
   display: flex;
   flex-direction: column;
   position: fixed;
   top: 200px;
   right: 80px;
+  animation: project 1s;
+}
+
+@keyframes project {
+  0%{
+    right: 0px;
+  }
+  100%{
+    right: 80px;
+  }
 }
 
 
 
-
-.Myskills{
+.Myskills {
   position: fixed;
   bottom: 10px;
   right: 100px;
+  animation: myskills 1s;
+}
+
+@keyframes myskills {
+  0%{
+    bottom: -50px;
+  }
+  100%{
+    bottom: 10px;
+  }
 }
 
 
-.about{
+
+.about {
   position: fixed;
   top: 200px;
   width: 100px;
   height: 200px;
+  animation: about 1s;
 }
 
+@keyframes about {
+  0%{
+    left: -80px;
+  }
+  100%{
+    left: 0px;
+  }
+}
+
+
+
 @media (max-width: 450px) {
-  
-  .Logo{
+
+  .Contact{
+    right: 20px;
+  }
+
+  .Logo {
     width: 50px;
   }
 
-  .logo_div{
+  .logo_div {
     margin-top: 10px;
     margin-left: 10px;
   }
 
-  .about{
+  .about {
     position: fixed;
     top: 250px;
   }
 
-  .Aboutbox{
-    position: fixed;
-    top: 10%;
-    bottom: 15%;
-    left: 15%;
-    right: 15%;
   
+  .Aboutbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
-  .Project{
+  .Project {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 200px;
+    top: 20%;
     right: 30px;
+  }
+
+  .about {
+    top: 10px;
+    left: -25px;
   }
 
 }
 
 @media (max-width: 840px) {
-  
-  .Logo{
+
+  .Logo {
     width: 50px;
   }
 
-  .logo_div{
+  .logo_div {
     margin-top: 10px;
     margin-left: 10px;
   }
 
-  .about{
+  .about {
     position: fixed;
+    left: -25px;
     top: 250px;
+    animation: about 1s;
   }
 
-  .Aboutbox{
-    position: fixed;
-    top: 10%;
-    bottom: 15%;
-    left: 15%;
-    right: 15%;
+  @keyframes about {
+    0%{
+      left: -80px;
+    }
+    100%{
+      left: -25px;
+    }
+  }
   
+
+  .Aboutbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
   }
 
-  .Project{
+  .Project {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 200px;
-    right: 30px;
+    top: 20%;
+    right: 15px;
   }
 
-}
-
-@media (max-height: 820px) {
-
-  .Myskills{
-    top: 620px;
-    right: -80px;
+  @keyframes project {
+    0%{
+      right: -15px;
+    }
+    100%{
+      right: 15px;
+    }
   }
 
-}
 
-@media (max-height: 766px){
+  @media (max-height: 820px) {
 
-  .Aboutbox{
-    position: fixed;
-    top: 6%;
-    bottom: 15%;
-    left: 18%;
-  
+    .Myskills {
+      bottom: 10%;
+      right: -140px;
+      animation: myskills 1s;
+    }
+
+    @keyframes myskills {
+      0%{
+        right: -200px;
+      }
+      100%{
+        right: -140px;
+      }
+    }
+
   }
+
+
+  @media (max-height: 766px) {
+
+    .Aboutbox {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 100px;
+    }
+
+  }
+
+  .about {
+    top: 18%;
+  }
+
 }

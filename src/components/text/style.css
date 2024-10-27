@@ -40,7 +40,7 @@ a{
 
 .label2 {
   height: 46px;
-  width: 157px;
+  width: 200px;
 }
 
 .label2 .text-wrapper2 {
@@ -52,6 +52,12 @@ a{
   line-height: normal;
   position: fixed;
   text-shadow: 4px 4px 4px #00000040;
+}
+
+@media (max-width: 400px){
+
+  
+
 }
 
 @media (max-width: 450px) {
@@ -90,12 +96,13 @@ a{
     font-weight: 100;
   }
 
-}
+  @media (max-height: 820px) {
 
-@media (max-height: 820px) {
-
-  .label2 .text-wrapper2{
-    transform: rotate(-90deg);
+    .label2 .text-wrapper2{
+      transform: rotate(-90deg);
+    }
+    
   }
-  
 }
+
+
