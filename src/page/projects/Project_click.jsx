@@ -2,10 +2,12 @@ import React from 'react'
 import './style.css'
 import ptu_cgpa from './ptu_cgpa.png'
 import todo from './todo.png'
+import ParticlesComponent from '../../components/particles'
 
 function Project_click() {
   return (
     <>
+    <ParticlesComponent id="particles"/>
     <div className='backbutton'><a href="/">&#8249;</a></div>
       <div className='project-fixed'><h1>Project</h1></div>
       <div className='card-container'>

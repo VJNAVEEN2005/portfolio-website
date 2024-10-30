@@ -7,7 +7,7 @@ function Aboutbox() {
     <div className="Container">
       <div className='box'>
         <div className="text">
-          <div className="text-wrapper">Hi...</div>
+          <div className="text-wrapper text-wrapper-1">Hi...</div>
           <div className="div">I’m Naveen VJ,</div><br /><br />
           <p className="i-am-pursuing-b-tech">
             I am pursuing B.tech in

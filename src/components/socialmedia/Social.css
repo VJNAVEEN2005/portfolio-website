@@ -1,6 +1,7 @@
 .Social_div {
     margin-left: 0px;
     margin-bottom: 0px;
+    z-index: -3;
 }
 
 .Social_bg {
@@ -30,6 +31,7 @@
 }
 
 .images {
+    z-index: 5;
     position: fixed;
     bottom: 35px;
     top: 48%;

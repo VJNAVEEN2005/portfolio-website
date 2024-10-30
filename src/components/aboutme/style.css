@@ -45,6 +45,28 @@
   }
 }
 
+.text-wrapper-1{
+  width: 210px; 
+  border-right: 5px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+    typing 2s steps(6),
+    cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50%{
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from{
+    width: 0;
+  }
+}
+
 .Image_box {
   height: inherit;
   background-color: #90E0EF;
@@ -169,6 +191,10 @@
     border: solid 2px;
     padding: 8px;
     padding-bottom: 0px;
+  }
+
+  .text-wrapper-1{
+    width: 90px; 
   }
 
   .code_image {

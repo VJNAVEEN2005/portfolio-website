@@ -4,6 +4,13 @@ body {
 
 }
 
+#particles{
+    z-index: -3;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
 .project-fixed {
     position: fixed;
     color: #88bfca;
@@ -132,4 +139,5 @@ a {
         font-size: 60px;
 
     }
+
 }
